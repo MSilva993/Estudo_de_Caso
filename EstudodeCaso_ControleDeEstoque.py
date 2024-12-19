@@ -64,7 +64,7 @@ while True:
             escolha_opcao = int(input("Quais das opções você deseja? "))
             break  # Sai do loop se a entrada for um número válido
         except ValueError:
-            print("Entrada inválida. Por favor, insira um número.")
+            print("Não foi encontrado essa opção. Por favor, insira um número.")
     
     if escolha_opcao == 1:
         nome_produto = input("Digite o nome do produto: ")
@@ -102,11 +102,11 @@ while True:
         input("Pressione Enter para voltar ao menu principal...")
 
     elif escolha_opcao == 5:
-        print("Fim do menu \n")
+        print("Saindo do menu... \n")
         break
 
     else:
-        print("Opção inválida\n")
+        print("Opção não encontrada. Por favor escolha uma opção do menu \n")
 
 
 
